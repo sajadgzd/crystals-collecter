@@ -15,20 +15,21 @@ function start() {
 }
 
 start();
+$(document).ready(function() {
+    $(".col-3").on("click", function() {
+        // console.log("hello");
+        crystalRandom = Math.floor(Math.random() * 12) + 1;
+        $(this).text(crystalRandom);
+        totalScore += crystalRandom;
 
-$(".col-3").on("click", function() {
-    // console.log("hello");
-    crystalRandom = Math.floor(Math.random() * 12) + 1;
-    $(this).text(crystalRandom);
-    totalScore += crystalRandom;
+        $("#totalScore").text(totalScore);
 
-    $("#totalScore").text(totalScore);
-
-    if (totalScore > computerRandom) {
-        ++losses;
-        $("losses").text(losses);
-    } else if (totalScore === computerRandom) {
-        ++wins;
-        $("wins").text(wins);
-    }
+        if (totalScore > computerRandom) {
+            ++losses;
+            $("losses").text(losses);
+        } else if (totalScore === computerRandom) {
+            ++wins;
+            $("wins").text(wins);
+        }
+    });
 });
