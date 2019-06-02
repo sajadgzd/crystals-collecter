@@ -1,3 +1,19 @@
 .row {
     margin: 25px 0;
 }
+
+.header {
+    background-color: aqua;
+}
+
+.rules {
+    background-color: yellowgreen;
+}
+
+.random {
+    background-color: bisque;
+}
+
+.winslosses {
+    background-color: rgb(188, 147, 226);
+}
