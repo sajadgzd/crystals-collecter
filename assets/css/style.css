@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(237, 250, 202);
+}
+
 .row {
     margin: 25px 0;
 }
