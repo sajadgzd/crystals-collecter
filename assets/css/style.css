@@ -1,5 +1,10 @@
 body {
-    background-color: rgb(237, 250, 202);
+    background-color: rgb(190, 180, 245);
+    background-image: url(../images/crystal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 100%;
 }
 
 .row {
