@@ -14,6 +14,7 @@ body {
     background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
     border-radius: 25px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .row {
