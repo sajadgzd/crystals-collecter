@@ -34,10 +34,11 @@ function start() {
     $("#random").text(computerRandom);
 
 }
-start();
-getCrystalRandom();
+
 
 $(document).ready(function() {
+    start();
+    getCrystalRandom();
     $(".col-3").on("click", function() {
         // console.log("hello");
         totalScore += parseInt($(this).attr("value"));
