@@ -7,17 +7,29 @@ body {
     height: 100vh;
 }
 
+.container {
+    color: aliceblue;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    border-radius: 25px;
+    text-align: center;
+}
+
 .row {
     margin: 25px 0;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .header {
-    background-color: aqua;
+    /* background-color: aqua; */
+    color: aliceblue;
 }
 
 .rules {
-    background-color: yellowgreen;
+    color: black;
+    background-color: rgb(221, 228, 206);
 }
 
 .random {
