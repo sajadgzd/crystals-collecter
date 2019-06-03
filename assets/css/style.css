@@ -18,28 +18,33 @@ body {
 
 .row {
     margin: 25px 0;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
 }
 
 .header {
-    /* background-color: aqua; */
     color: aliceblue;
 }
 
 .rules {
     color: black;
-    background-color: rgb(221, 228, 206);
+    background-color: rgb(236, 240, 229);
 }
 
 .random {
-    background-color: bisque;
-    border-radius: 20px;
+    color: black;
+    background-color: rgb(236, 240, 229);
+    border-radius: 3px;
+    padding-top: 20px;
+    border-right: 1px solid black;
 }
 
 .winslosses {
-    background-color: rgb(188, 147, 226);
-    border-radius: 20px;
+    background-color: rgb(236, 240, 229);
+    color: black;
+    border-radius: 3px;
+    padding: 10px 0;
+    border-left: 1px solid black;
 }
 
 @media screen and (max-width: 1152px) {
