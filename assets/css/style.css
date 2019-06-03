@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     background-color: rgb(180, 245, 223);
     background-image: url(../images/2.jpg);
     background-position: cover;
@@ -9,6 +8,7 @@ body {
 
 .row {
     margin: 25px 0;
+    border-radius: 20px;
 }
 
 .header {
@@ -21,14 +21,10 @@ body {
 
 .random {
     background-color: bisque;
+    border-radius: 20px;
 }
 
 .winslosses {
     background-color: rgb(188, 147, 226);
+    border-radius: 20px;
 }
-
-
-/* .col-3 {
-    background: white;
-    margin: 2px;
-} */
