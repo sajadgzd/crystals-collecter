@@ -29,6 +29,7 @@ function getCrystalRandom() {
 
 function start() {
     totalScore = 0;
+    $("#totalScore").text(totalScore);
     computerRandom = Math.floor(Math.random() * 102) + 19;
     $("#random").text(computerRandom);
 
