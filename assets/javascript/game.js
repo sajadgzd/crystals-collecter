@@ -14,16 +14,16 @@ var crystals = [
 
 function getCrystalRandom() {
     redRandom = Math.floor(Math.random() * 12) + 1;
-    $("#red").text(redRandom);
+    // $("#red").text(redRandom);
     $("#red").attr("value", redRandom);
     dropRandom = Math.floor(Math.random() * 12) + 1;
-    $("#drop").text(dropRandom);
+    // $("#drop").text(dropRandom);
     $("#drop").attr("value", dropRandom);
     yellowRandom = Math.floor(Math.random() * 12) + 1;
-    $("#yellow").text(yellowRandom);
+    // $("#yellow").text(yellowRandom);
     $("#yellow").attr("value", yellowRandom);
     blueRandom = Math.floor(Math.random() * 12) + 1;
-    $("#blue").text(blueRandom);
+    // $("#blue").text(blueRandom);
     $("#blue").attr("value", blueRandom);
 }
 
