@@ -42,7 +42,6 @@ $(document).ready(function() {
     $(".col-3").on("click", function() {
         // console.log("hello");
         totalScore += parseInt($(this).attr("value"));
-
         $("#totalScore").text(totalScore);
 
         if (totalScore > computerRandom) {
@@ -50,6 +49,7 @@ $(document).ready(function() {
             $("#losses").text(losses);
             start();
             getCrystalRandom();
+
         } else if (totalScore === computerRandom) {
             ++wins;
             $("#wins").text(wins);
