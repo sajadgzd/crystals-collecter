@@ -33,7 +33,7 @@ function start() {
     $("#random").text(computerRandom);
 
 }
-
+start();
 getCrystalRandom();
 
 $(document).ready(function() {
@@ -47,10 +47,12 @@ $(document).ready(function() {
             ++losses;
             $("#losses").text(losses);
             start();
+            getCrystalRandom();
         } else if (totalScore === computerRandom) {
             ++wins;
             $("#wins").text(wins);
             start();
+            getCrystalRandom();
         }
     });
 });
