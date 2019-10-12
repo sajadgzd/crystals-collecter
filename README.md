@@ -1,2 +1,2 @@
 # crystals-collecter
-JavaScript Game implemented in JQuery HTML CSS
+JavaScript interactive Game implemented in JQuery HTML CSS
